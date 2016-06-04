@@ -1,0 +1,24 @@
+@charset "UTF-8";
+
+section#corpo-full {
+    padding-top: 10px;
+    margin-left: 10px;
+    padding-left: 10px;
+    padding-right: 30px;
+}
+
+section#conteudo {
+	margin-left: 40px;
+	margin-bottom: 20px;
+}
+
+iframe#frame-spec {
+	width:  420px;
+	height: 280px;
+	border: none;
+	overflow: hidden;
+}
+
+iframe#frame-spec::-webkit-scrollbar {
+	display: none;
+}
